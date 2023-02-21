@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <div className='flex flex-col items-center justify-center h-screen px-2 text-white'> <h1 className='text-5xl font-bold mb-20'>Chatgpt</h1>
     {/* Main GPT editor Container */}
-    <div>
+    <div className='flex space-x-2 text-center'>
         {/* Info Text 1 */}
         <div>
             <div className='flex flex-col items-center justify-center mb-5'>
